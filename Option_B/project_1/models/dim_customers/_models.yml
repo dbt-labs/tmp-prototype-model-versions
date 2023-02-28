@@ -1,0 +1,21 @@
+models:
+  - name: dim_customers_v1
+    version: 1
+    columns:
+      - name: customer_id
+        description: primary key of the customers table
+      - name: favorite_color
+        description: favorite color of the customer. No longer supported, deprecated in v2
+      - name: favorite_animal
+        description: favorite color of the customer
+  - name: dim_customers_v2
+    version: 2
+    columns:
+      exclude:
+        - name: favorite_color 
+  - name: dim_customers.v3
+    version: 3
+    columns:
+      extend:
+        - name: customer_friend
+          description: name of the number one fan of customers 

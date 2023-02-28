@@ -1,0 +1,6 @@
+models:
+  - name: dim_customers
+    version: 2
+    columns:
+      - name: customer_id
+      - name: favorite_animal
