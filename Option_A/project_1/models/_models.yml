@@ -1,7 +1,11 @@
 models:
   - name: dim_customers
-    version: 1
+    version: 2
     columns:
       - name: customer_id
       - name: favourite_colour
       - name: favourite_animal
+  - name: dim_customers
+    version: 1
+    columns:
+      - exclude: ['favourite_colour']
