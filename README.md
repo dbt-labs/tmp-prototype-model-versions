@@ -5,6 +5,12 @@ Hands-on prototypes for Options A, B, C, and D for model versions.
 See here for the Big Idea and the options we've thought of so far:
 - https://github.com/dbt-labs/dbt-core/discussions/6736
 
+## Set up
+1. Clone this repo using your method of choice: HTTPS, SSH, or GitHub CLI
+1. Optional: Create a branch so that you can make commits that are separated from everyone else's
+    ```shell
+    git branch -b my_username/prototypes
+    ```
 
 ## Let's pretend
 
