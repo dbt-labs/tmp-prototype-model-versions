@@ -28,3 +28,19 @@ As the maintainer of this model, pretend you live in four alternate universes th
 - Option_D
 
 Reference the syntax for each of the options [here](https://github.com/dbt-labs/dbt-core/discussions/6736).
+
+## Bonus activities
+
+Having so much fun that you want to keep going? Are you willing to create your own adventure? Here's some things you can try (in any order you want!):
+
+- As the maintainer of this model, pretend you live in four alternate universes but that you **DON’T** already use model versioning.
+    - Create a simple model that is _unversioned_ to start
+    - Then make the relevant updates to convert it into a versioned model
+        - Try out all four of the options for versioning from the earlier activity
+- Create a new dbt project named `project_2`.
+    - Make a reference to a versioned model. Then update it to the new version.
+    - Make a reference to an _unversioned_ model. Then update it to the new version.
+- Within `project_1`, add a downstream reference to a versioned model. Then update it to use the new version.
+- Within `project_1`, add a downstream reference to an unversioned model. Then update it to use the new version.
+- Pretend you are in charge of a BI dashboard that uses a versioned model. How would you update your dashboard to use the new version?
+- Pretend you are in charge of a BI dashboard that uses an unversioned model. How would you update your dashboard to use the new version?
