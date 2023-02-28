@@ -1,9 +1,7 @@
 models:
   - name: dim_customers
-    version: 1
-    latest: false
-    deprecation_date: '2023-07-01'
+    version: 2
+    latest: true
     columns:
       - name: customer_id
-      - name: favorite_color
       - name: favorite_animal
