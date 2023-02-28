@@ -4,5 +4,5 @@ models:
     latest: true
     columns:
       - name: customer_id
-      - name: favourite_color
+      - name: favourite_colour
       - name: favourite_animal
