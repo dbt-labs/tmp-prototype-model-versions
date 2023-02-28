@@ -1,7 +1,13 @@
 models:
   - name: dim_customers
-    version: 1
     columns:
       - name: customer_id
-      - name: favourite_colour
       - name: favourite_animal
+    versions: 
+      - version: 1 
+        implemented_in: dim_customers_v2
+        deprecation_date: '2023-06-01'
+        columns: 
+          - include: 'all'
+          - name: favourite_colour
+            description: deprecated in v2+

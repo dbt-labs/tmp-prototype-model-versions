@@ -3,9 +3,11 @@ models:
     version: 2
     columns:
       - name: customer_id
-      - name: favourite_colour
       - name: favourite_animal
   - name: dim_customers
     version: 1
+    deprecation_date: '2023-06-01'
     columns:
-      - exclude: ['favourite_colour']
+      - include: [customer_id, favourite_animal]
+      - name: favourite_colour
+        description: Deprecated in v2+
